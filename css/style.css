@@ -5,3 +5,19 @@
 body {
    margin: auto;
 }
+
+h1 {
+   color: blue;
+   font-size: 48pt
+}
+
+h2 {
+   color: green;
+   font-size: 24pt
+}
+
+h4 {
+   color: red;
+   font-family: Garamond;
+   font-size: 20pt;
+}
