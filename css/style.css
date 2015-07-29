@@ -7,8 +7,9 @@ body {
 }
 
 h1 {
+   border-style: solid;
    color: blue;
-   font-size: 48pt
+   font-size: 64pt
 }
 
 h2 {
@@ -17,7 +18,7 @@ h2 {
 }
 
 h4 {
-   color: red;
+   color: gray;
    font-family: Garamond;
    font-size: 20pt;
 }
