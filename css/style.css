@@ -66,3 +66,7 @@ table {
 
    Author: Dan Cederholm
 \* ------------------------------------------------------------------------------ */
+html {
+  background: greenyellow;
+  width: 100%;
+}
