@@ -1,11 +1,70 @@
 @import '_base.scss';
 @import '_mixins.scss';
 
+$font: 'Didact Gothic', sans-serif;
+$bodytypecolor: white;
+$bodytypesize: 100px;
+
 html {
-  background: greenyellow;
+  background: none;
   width: 100%;
 }
 
-nav {
-  
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.btnhome {
+  text-shadow: 1px 3px 5px;
+  font-family: $font;
+  color: #D92A1A;
+  font-size: 150px;
+  background: ;
+  text-decoration: none;
+  float: left;
+  padding: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+.btnhome:hover {
+  background: none;
+  text-decoration: none;
+}
+
+.btnart {
+    text-shadow: 1px 3px 5px #666666;
+    font-family: $font;
+    font-size: $bodytypesize;
+    background: #D92A1A;
+    text-decoration: none;
+    float: left;
+    padding: 100px;
+    width: 100%;
+  }
+
+.btnart:hover {
+    background: #ff7010;
+    text-decoration: none;
+  }
+
+.btncomputers {
+  text-shadow: 1px 3px 5px #666666;
+  font-family: $font;
+  font-size: $bodytypesize;
+  background: #3698BF;
+  text-decoration: none;
+  float: left;
+  padding: 100px;
+  width: 100%;
+}
+
+.btncomputers:hover {
+  background: #3da9d7;
+  text-decoration: none;
+}
+
+em {
+  color: #D92A1A;
 }
