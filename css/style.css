@@ -119,10 +119,6 @@ a {
   text-decoration: none;
 }
 
-em {
-  color: #D92A1A;
-}
-
 .btnhome2 {
   text-shadow: 1px 3px 5px;
   font-family: "Didact Gothic", sans-serif;
@@ -191,17 +187,17 @@ strong {
   color: #ff7010;
 }
 
-h1 {
+h2 {
   font-family: "Didact Gothic", sans-serif;
   font-size: 50px;
   text-decoration: none;
   width: 100%;
   line-height: 1.3em;
-  color: #F2AC00;
+  color: #3698BF;
   padding-bottom: 20px;
 }
 
-strong .two {
+em {
   font-size: 120%;
-  color: #ff7010;
+  color: #44c4f0;
 }
