@@ -3,7 +3,7 @@
 
 $font: 'Didact Gothic', sans-serif;
 $bodytypecolor: white;
-$bodytypesize: 100px;
+$bodytypesize: 150px;
 
 html {
   background: none;
@@ -18,26 +18,19 @@ a {
 .btnhome {
   text-shadow: 1px 3px 5px;
   font-family: $font;
-  color: #D92A1A;
-  font-size: 150px;
-  background: ;
+  font-size: 200px;
+  background: #ff7010;
   text-decoration: none;
   float: left;
   padding: 100px;
   width: 100%;
-  text-align: center;
-}
-
-.btnhome:hover {
-  background: none;
-  text-decoration: none;
 }
 
 .btnart {
     text-shadow: 1px 3px 5px #666666;
     font-family: $font;
     font-size: $bodytypesize;
-    background: #D92A1A;
+    background: #F2CA50;
     text-decoration: none;
     float: left;
     padding: 100px;
@@ -45,7 +38,7 @@ a {
   }
 
 .btnart:hover {
-    background: #ff7010;
+    background: #F2AC00;
     text-decoration: none;
   }
 
@@ -61,10 +54,94 @@ a {
 }
 
 .btncomputers:hover {
-  background: #3da9d7;
+  background: #44c4f0;
   text-decoration: none;
 }
 
 em {
   color: #D92A1A;
+}
+
+.btnhome2 {
+  text-shadow: 1px 3px 5px;
+  font-family: $font;
+  font-size: 100px;
+  background: #ff7010;
+  text-decoration: none;
+  float: left;
+  padding: 20px;
+  width: 100%;
+}
+
+.btnart2 {
+  text-shadow: 1px 3px 5px #666666;
+  font-family: $font;
+  font-size: 75px;
+  background: #F2CA50;
+  text-decoration: none;
+  float: left;
+  padding: 20px;
+  width: 100%;
+}
+
+.btnart2:hover {
+  background: #F2AC00;
+  text-decoration: none;
+}
+
+.btncomputers2 {
+  text-shadow: 1px 3px 5px #666666;
+  font-family: $font;
+  font-size: 75px;
+  background: #3698BF;
+  text-decoration: none;
+  float: left;
+  padding: 20px;
+  width: 100%;
+}
+
+.btncomputers2:hover {
+  background: #44c4f0;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: $font;
+  font-size: 50px;
+  text-decoration: none;
+  width: 100%;
+  line-height: 1.3em;
+  color: #F2AC00;
+  padding-bottom: 20px;
+}
+
+i{
+font-style: italic;
+}
+
+img {
+  max-width: 500px;
+  float: left;
+  padding-right: 30px;
+
+}
+
+strong {
+  font-size: 120%;
+  color: #ff7010;
+}
+
+h1 {
+  font-family: $font;
+  font-size: 50px;
+  text-decoration: none;
+  width: 100%;
+  line-height: 1.3em;
+  color: #F2AC00;
+  padding-bottom: 20px;
+}
+
+strong .two {
+  font-size: 120%;
+  color: #ff7010;
 }
